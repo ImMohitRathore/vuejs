@@ -617,9 +617,21 @@ height: 5px;
 
 
         .search-box input{
-            width: 300px;
-            height: 30px;
+            width: 200px;
+            position: absolute;
+            right: 0;
+            height: 15px;
            
+        }
+
+        .search-box img[data-v-469af010]{
+            width:15px;
+            position: absolute;
+            top: 0;
+        }
+
+        .data-container{
+            top: 15px;
         }
 
         .head{
@@ -724,6 +736,21 @@ height: 3px;
         /* word-wrap: break-word; */
         white-space: nowrap;
     }
+}
+
+
+/* mobile responsive */
+@media screen and (max-width: 360px) {
+    .header{
+       width: 580px;
+    }
+    .search-box input{
+      right:-22px;
+      width: 300px;
+      top: 0;
+    }
+
+
 }
 
 </style>
