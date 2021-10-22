@@ -5,29 +5,30 @@
             <span class="head">{{ mainText }} </span>
             
             <div class="left-container">
-                <div class="icons">
+               
+                    <div   class="icons" >
                     <img v-bind:src="require('./icons/materialIcons/Menu.png')" alt="Menu">
                 </div>
-                <div class="search-box" v-if="searchBox">
+             
+                <div class="search-box" >
                     <input class="input-field" type="text">
                     <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
                 </div>
-                <div class="menu-box" v-if="menubox">
+                <div class="menu-box" >
                     
-                    <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                    <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                    <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                    <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Ayuda1.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Consultar.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Cupones1.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Perfil1.png')" alt="">
                 </div>
             </div>
         </div>
         <div class="main-container">
-            <div class="menu-box">
-                <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                
-                <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
-                <img v-bind:src="require('./icons/materialIcons/LupaBuscador.png')" alt="">
+            <div class="menu-box" v-if="seen" id="hide">
+                <img v-bind:src="require('./icons/DesktopIcons/Ayuda1.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Consultar.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Cupones1.png')" alt="">
+                    <img v-bind:src="require('./icons/DesktopIcons/Perfil1.png')" alt="">
             </div>
             <div class="data-container">
                     <table>
@@ -41,15 +42,19 @@
                                             <div class="inner"></div>
                                         </div>
                                         <div class="triangle"></div>
+                                      
+
                                     </div>
                                 </th>
                               
                                 
                                   
-                                        <th><img v-bind:src="require('./icons/MenuPrincipal/Fecha-y-Hora.png')" alt=""></th>
-                                <th><img v-bind:src="require('./icons/MenuPrincipal/Nombre-Candidato.png')" alt=""></th>
-                                <th><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></th>
+                                        
+                                            <th><div class="head3"><img v-bind:src="require('./icons/MenuPrincipal/Fecha-y-Hora.png')" alt=""></div></th>
+                                <th><div class="head3"><img v-bind:src="require('./icons/MenuPrincipal/Nombre-Candidato.png')" alt=""></div> </th>
+                                <th><div class="head3"><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></div></th>
                                   
+                                       
                                 
                                 <th><img v-bind:src="require('./icons/MenuPrincipal/Referencias-Laborales.png')" alt=""></th>
                                   <th><img v-bind:src="require('./icons/MenuPrincipal/Referencias-Laborales.png')" alt=""></th>
@@ -72,11 +77,11 @@
                                             <div class="inner"></div>
                                         </div>
                                     </div>
-                                    <!-- <img class="icon" v-bind:src="require('./icons/IconosRow/Estrella.png')" > -->
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
                                 <td>Karla Moreno</td>
-                                  <div class="mail"><td>karlamoreno@gmail.com</td></div>
+                                  <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -92,11 +97,11 @@
                                             <div class="inner"></div>
                                         </div>
                                     </div>
-                                    <!-- <img class="icon" v-bind:src="require('./icons/IconosRow/Estrella.png')" > -->
+                                   <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
                                 <td>Karla Moreno</td>
-                                <div class="mail"><td>karlamoreno@gmail.com</td></div>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -111,13 +116,15 @@
                                             
                                         <div class="outer">
                                             <div class="inner"></div>
+                                            
                                         </div>
+                                            
                                     </div>
-                                    <!-- <img class="icon" v-bind:src="require('./icons/IconosRow/Estrella.png')" > -->
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
                                 <td>Karla Moreno</td>
-                                <div class="mail"><td>karlamoreno@gmail.com</td></div>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -133,11 +140,13 @@
                                             <div class="inner"></div>
                                         </div>
                                     </div>
-                                    <!-- <img class="icon" v-bind:src="require('./icons/IconosRow/Estrella.png')" > -->
+                                    <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
-                                <td>01/02/2021 <br /> 09:01 am</td>
+                              
+                                    <td>01/02/2021 <br /> 09:01 am</td>
                                 <td>Karla Moreno</td>
-                                  <div class="mail"><td>karlamoreno@gmail.com</td></div>
+                                  <td><div class="mail">karlamoreno@gmail.com</div></td>
+                              
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -159,11 +168,6 @@
     @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 
-.mail{
-    padding-left: 20px;
-    padding-right: 30px;
-    background-color: #ecf4fe;
-}
     .triangle {
         width: 0;
         height: 0;
@@ -173,6 +177,14 @@
         margin: auto;
         margin-left: 10px;
     }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
     .top-icons-row{
         display: flex;
         flex-direction: column;
@@ -218,7 +230,7 @@
         overflow-x: hidden;
         padding: 20px;
         display: table;
-    }
+    }  
     .menu-box{
         background-color: #f1f1f1;
         display: flex;
@@ -226,16 +238,18 @@
         height: 80vh;
         flex-direction: column;
         border-radius: 10px;
-    }
+       display: none;
+        
+    } 
     .menu-box img{
-        background-color: #2c63c0;
+       
         width:auto;
         height: auto;
         margin: auto;
-        border-radius: 100px;
+      
     }
     .header{
-        width: 96vw;
+       width:100%;
         height: 3vw;
         background-color: #2c63c0;
         display: inline-flex;
@@ -258,20 +272,32 @@
     .left-container{
         height: inherit;
         margin-left: auto;
-        width: 100px;
+        width: 500px;
         display: flex;
         flex-direction: row;
+       
         justify-content: space-between;
+       
     }
-    .left-container .icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+    
     .left-container .icons img{
         margin-left: 10px;
+        display: none;
     }
+     .search-box input{
+        width: 500px;
+        height: 30px;
+     margin-left: -20px;
+        
+       
+        
+    }
+    .search-box img{
+        position: absolute;
+        right: 30px;
+        top: 75px;
+    }
+
     
     body {
         font-family: 'Inter', sans-serif;
@@ -352,6 +378,15 @@
     td{
         font-size: 13px;
     }
+.menu-box{
+    width: 4vw;
+    height: 80vh;
+}
+.menu-box img{
+
+width: 100%;
+}
+
 }
 
 
@@ -374,15 +409,51 @@
     td{
         font-size: 11px;
     }
+
+
 }
 
-@media screen and (max-width: 938px) {
+@media screen and (max-width: 976px) {
      th,td, img{
         margin-left: -50px;
         width: 24px;
     }
     td{
         font-size: 11px;
+    }
+
+    
+     .left-container .icons img{
+        display: block;
+        right: 8%;
+        position: absolute;
+    } 
+
+    .header{
+        position:absolute;
+        top: 0%;
+    }
+    .search-box{
+        position: relative;
+        top: 160%;
+        
+    }
+
+    .search-box img{
+        top: 40%;
+    }
+
+    .head , .logo{
+        margin-left: 10px;
+    }
+
+
+
+
+
+    .data-container{
+       position: relative;
+       top: 50px;
     }
 }
 
@@ -405,14 +476,15 @@
 
 
 @media screen and (max-width: 851px) {
-     th,td, img{
-        margin-left: -90px;
+    th ,td img{
+        margin-left: -50px;
         width: 22px;
     }
+   
 
-    td{
-        padding-left: 30px;
-    }
+  
+
+  
 .menu-box img{
     width: 22px;
 }
@@ -438,16 +510,14 @@ height: 10px;
 
        th, td,img{
        
-        width: 18px;
+        width: 20px;
        
 
     }
 
-   td{
-       font-size:9px;
-       
-    
-   }
+   
+
+
 
    
 
@@ -455,19 +525,29 @@ height: 10px;
 
 }
 @media screen and (max-width: 810px) {
-   .outer{
-       margin-left: -50px;
-   } 
+   
 
-    th, img{
+   td, th, img{
        
-        width: 15px;
+        width: 20px;
 
     }
 
     td{
-        font-size: 7px;
+        font-size: 10px;
     }
+
+    .select-button{
+        margin-left: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 772px) {
+  .data-container{
+      position: relative;
+      left: -30px;
+  }
 }
 
 @media screen and (max-width: 765px) {
@@ -491,17 +571,21 @@ height: 10px;
 @media screen and (max-width: 739px) {
       th,td, img{
        
-        width: 12px;
+        width: 19px;
        
     }
 
     th, td {
-        padding: 4px 20px;
+        padding: 4px 18px;
        
         /* word-wrap: break-word; */
         white-space: nowrap;
     }
 
+td img{
+  width: 20px;
+
+}
 
 
 
@@ -528,11 +612,65 @@ height: 5px;
  }
 }
     
+
+    @media screen and (max-width: 717px) {
+
+
+        .search-box input{
+            width: 300px;
+            height: 30px;
+           
+        }
+
+        .head{
+            font-size: 12px;
+          
+            width: 300px;
+        }
+
+
+
+.mail{
+  
+    position: relative;
+    left: -28px;
+  
+}
+
+td img{
+    width: 15px;
+    margin-left: -102px;
+    padding: 3px 0px;
+}
+
+  th,td, img{
+       padding: 3px 18px;
+        width: 15px;
+       margin-left: -102px;
+    }
+
+
+.head3{
+    position: relative;
+    left: 30px;
+}
+    }
 @media screen and (max-width: 663px) {
    th,td, img{
        
-        width: 10px;
+        width: 15px;
        
+    }
+
+
+
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    .search-box{
+        left: -40px;
     }
 
     th, td {
@@ -558,9 +696,12 @@ height: 3px;
 @media screen and (max-width: 619px) {
     th,td, img{
        
-        width: 8px;
+        width: 15px;
        
     }
+ .mail{
+     margin: 0 12px;
+ }
 
     th, td {
         padding: 4px 16px;
@@ -573,7 +714,7 @@ height: 3px;
 @media screen and (max-width: 575px) {
     th,td, img{
        
-        width: 6px;
+        width: 10px;
        
     }
 
@@ -592,6 +733,8 @@ height: 3px;
 
 
 export default {
+
+  
     data() {
         return {
             mainText: "Pedro Pedz",
@@ -600,5 +743,7 @@ export default {
     },
     methods: {
     },
+
+
 }
 </script>
