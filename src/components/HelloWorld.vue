@@ -80,7 +80,7 @@
                                      <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
-                                <td>Karla Moreno</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
                                   <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -100,7 +100,7 @@
                                    <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
-                                <td>Karla Moreno</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
                                 <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -123,7 +123,7 @@
                                      <img class="icon" v-bind:src="require('./icons/star.png')" >
                                 </td>
                                 <td>01/02/2021 <br /> 09:01 am</td>
-                                <td>Karla Moreno</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
                                 <td><div class="mail">karlamoreno@gmail.com</div></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -144,7 +144,7 @@
                                 </td>
                               
                                     <td>01/02/2021 <br /> 09:01 am</td>
-                                <td>Karla Moreno</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
                                   <td><div class="mail">karlamoreno@gmail.com</div></td>
                               
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
@@ -757,11 +757,22 @@ height: 3px;
       
     }
     .search-box input{
-      right:-22px;
+      
       width: 300px;
-      top: 0;
+      top: 10px;
+    }
+    .search-box img[data-v-469af010]{
+        top: 12px;
+        right: 0;
     }
 
+    th img{
+        width:20px;
+       
+    }
+
+    
+   
 
 }
 
