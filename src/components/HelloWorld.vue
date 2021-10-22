@@ -133,6 +133,381 @@
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                                 <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
                             </tr>
+                               <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>   <tr>
+                                <td>
+                                    <div class="select-button">
+                                            
+                                        <div class="outer">
+                                            <div class="inner"></div>
+                                            
+                                        </div>
+                                            
+                                    </div>
+                                     <img class="icon" v-bind:src="require('./icons/star.png')" >
+                                </td>
+                                <td>01/02/2021 <br /> 09:01 am</td>
+                                <td><div class="pers"><p>Karla Moreno</p></div></td>
+                                <td><div class="mail">karlamoreno@gmail.com</div></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                                <td><img v-bind:src="require('./icons/MenuPrincipal/Correo-Candidato.png')" alt=""></td>
+                            </tr>
                             <tr>
                                 <td>
                                     <div class="select-button">
@@ -183,6 +558,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+
 }
     
     .top-icons-row{
@@ -216,20 +593,25 @@ body{
 
     .main-container{
         display: inline-flex;
-        width: 97vw;
-        height: 84vh;
+        width: 100%;
+        height: 100vh;
+        overflow-x: scroll;
+        
     }
     .data-container{
-        width: calc(90%) !important;
+       width:90%;
+       margin-left: 10%;
         height: 75vh;
         background-color: #ffffff;
         margin-left: 2vw;
         border-radius: 10px;
         border: 5px solid #eff4fa;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        
+     
+        overflow: hidden;
         padding: 20px;
         display: table;
+        
     }  
     .menu-box{
         background-color: #f1f1f1;
@@ -239,6 +621,7 @@ body{
         flex-direction: column;
         border-radius: 10px;
        display: none;
+       
         
     } 
     .menu-box img{
@@ -256,6 +639,9 @@ body{
         border-radius: 5px;
         padding: 10px;
         margin-bottom: 20px;
+      position:absolute;
+      top: 0%;
+      left: 0;
     }
     .head{
         margin-left: 3vw;
@@ -428,6 +814,7 @@ width: 100%;
         right: 8%;
         position: absolute;
     } 
+   
 
     .header{
         position:absolute;
@@ -674,6 +1061,10 @@ td img{
        
     }
 
+ .data-container table{
+        overflow-x: scroll;
+    }
+    
 
 
     .icon{
@@ -753,12 +1144,14 @@ height: 3px;
 }
 @media screen and (max-width: 360px) {
     .header{
-       width: 579px;
+       width: 100%;
       
     }
+
+
     .search-box input{
       
-      width: 300px;
+    
       top: 10px;
     }
     .search-box img[data-v-469af010]{
