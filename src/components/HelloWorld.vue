@@ -742,7 +742,7 @@ height: 3px;
 /* mobile responsive */
 @media screen and (max-width: 360px) {
     .header{
-       width: 580px;
+       width: 579px;
     }
     .search-box input{
       right:-22px;
