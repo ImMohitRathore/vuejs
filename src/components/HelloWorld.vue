@@ -1128,6 +1128,13 @@ height: 3px;
         width: 10px;
        
     }
+
+    th img{
+   width: 25px;
+}
+    .header{
+    position: fixed;
+}
     .main-container{
        overflow-x:scroll ;
     }
@@ -1163,6 +1170,13 @@ height: 3px;
       width: 500px;
       
     }
+    .header{
+    position: fixed;
+}
+
+th img{
+   width: 25px;
+}
 }
 @media screen and (max-width: 360px) {
     .header{
@@ -1174,6 +1188,10 @@ height: 3px;
        overflow-x:scroll ;
     }
 
+
+.header{
+    position: fixed;
+}
 
     .search-box input{
       
