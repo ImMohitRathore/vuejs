@@ -558,6 +558,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
  
 
 }
@@ -595,22 +596,24 @@ body{
         display: inline-flex;
         width: 100%;
         height: 100vh;
-        overflow-x: scroll;
+       
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+
         
     }
     .data-container{
        width:90%;
-       margin-left: 10%;
+        overflow-x: scroll;
         height: 75vh;
         background-color: #ffffff;
-        margin-left: 2vw;
         border-radius: 10px;
         border: 5px solid #eff4fa;
-        
-     
         overflow: hidden;
         padding: 20px;
         display: table;
+      
         
     }  
     .menu-box{
@@ -629,6 +632,7 @@ body{
         width:auto;
         height: auto;
         margin: auto;
+
       
     }
     .header{
@@ -642,9 +646,11 @@ body{
       position:absolute;
       top: 0%;
       left: 0;
+     
+     
     }
     .head{
-        margin-left: 3vw;
+        margin-left: 5vw;
         margin-top: auto;
         margin-bottom: auto;
         font-size: 2.5vw;
@@ -654,6 +660,7 @@ body{
     .header .logo{
         width: 10vw;
         height: 100%;
+        margin-left: 12px;
     }
     .left-container{
         height: inherit;
@@ -681,7 +688,7 @@ body{
     .search-box img{
         position: absolute;
         right: 30px;
-        top: 75px;
+        top: 10px;
     }
 
     
@@ -1004,9 +1011,10 @@ height: 5px;
 
 
         .search-box input{
-            width: 200px;
+           width:717px;
             position: absolute;
             right: 0;
+            top: 12px;
             height: 15px;
            
         }
@@ -1014,7 +1022,7 @@ height: 5px;
         .search-box img[data-v-469af010]{
             width:15px;
             position: absolute;
-            top: 0;
+            top: 12px;
         }
 
         .data-container{
@@ -1120,6 +1128,17 @@ height: 3px;
         width: 10px;
        
     }
+    .main-container{
+       overflow-x:scroll ;
+    }
+    .search-box input{
+        width: 100%;
+    }
+
+    .search-box{
+       padding-left: 12px;
+        width: 100%;
+    }
 
     th, td {
         padding: 4px 14px;
@@ -1132,9 +1151,12 @@ height: 3px;
 
 /* mobile responsive */
 @media screen and (max-width: 400px) {
-    .header{
-       width: 709px;
-       
+     .header{
+       width: 100%;
+      
+    }
+    .main-container{
+       overflow-x:scroll ;
     }
     .search-box input{
       right:-22px;
@@ -1146,6 +1168,10 @@ height: 3px;
     .header{
        width: 100%;
       
+    }
+
+    .main-container{
+       overflow-x:scroll ;
     }
 
 
